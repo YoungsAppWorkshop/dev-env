@@ -7,7 +7,7 @@ function gitAddAllAndCommit() {
 }
 
 function gcap() {
-    git add . && git commit -m "$*" && git push
+    git commit -m "$*" && git push
 }
 
 # NEW.
