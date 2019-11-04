@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.youngsappworkshop.brew.update</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/etc/auto_upgrade_brew.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Minute</key>
+        <integer>00</integer>
+        <key>Hour</key>
+        <integer>03</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardErrorPath</key>
+    <string>/usr/local/var/log/auto_upgrade_brew.err</string>
+
+    <key>StandardOutPath</key>
+    <string>/usr/local/var/log/auto_upgrade_brew.out</string>
+</dict>
+</plist>
