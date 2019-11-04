@@ -14,9 +14,11 @@ sudo update-alternatives --config java
 ## Add Environment variable in `/etc/environment`
 
 - Change jvm path if necessary
+- Set `$JAVA_HOME` environment variable
 
 ```bash
-echo 'JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"' > /etc/environment
+# vi /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ```
 
 ## Install ElasticSearch
