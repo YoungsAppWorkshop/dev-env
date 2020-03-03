@@ -121,6 +121,7 @@ export LANG=en_US.UTF-8
 
 # Register custom aliases
 source ~/.young/conf/aliases.sh
+source ~/aliases.sh
 
 # Add emoji git log aliases
 source ~/.young/conf/emoji_log.sh
