@@ -88,8 +88,9 @@ export PATH="/Users/young/Library/Python/3.7/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
 # Java Environment variable
-export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME=$(/usr/libexec/java_home)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_242)
 
 # Configure Powerlevel9k Cursor Prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
