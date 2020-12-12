@@ -81,8 +81,8 @@ source $ZSH/oh-my-zsh.sh
 # Export Homebrew Path
 export PATH="/usr/local/sbin:$PATH"
 
-# Export Python3 Path
-export PATH="/Users/young/Library/Python/3.7/bin:$PATH"
+# Python Version Manager
+eval "$(pyenv init -)"
 
 # Export MySQL@5.6 Path
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
