@@ -125,6 +125,10 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+# Export custom scripts Paths
+export PATH="$HOME/.young/scripts:$PATH"
+
 # Register custom aliases
 source ~/.young/conf/aliases.sh
 source ~/aliases.sh
